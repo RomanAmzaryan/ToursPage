@@ -1,0 +1,27 @@
+
+/* .contactHeader{
+    width: 100%;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(https://travio.smartdemowp.com/wp-content/uploads/2021/03/page-title-5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.contactH1{
+    text-align: center;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+    padding-top: 60px;
+    padding-bottom: 170px;
+}  */
+
+
+.tourContent{
+    margin: 0 auto; 
+    max-width: 1320px;
+    display: flex;
+    justify-content: space-evenly;
+}

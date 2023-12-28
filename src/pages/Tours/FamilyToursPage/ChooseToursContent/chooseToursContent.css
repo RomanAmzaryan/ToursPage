@@ -1,0 +1,298 @@
+.rightSide{
+    margin-top: 40px;
+}
+
+/* default-sidebar tour-sidebar ml-20 */
+
+h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    color: #061a3a;
+    margin: 0px;
+    transition: all 500ms ease;
+}
+
+.rightSide .search-form .form-group {
+    position: relative;
+    margin: 0px;
+}
+
+.rightSide .search-form .form-group button {
+    position: absolute;
+    top: 37px;
+    right: 20px;
+    font-size: 18px;
+    color: #848484;
+    background: transparent;
+    cursor: pointer;
+    transition: all 500ms ease;
+    border: 0px;
+}
+
+.rightSide .sidebar-widget {
+    position: relative;
+    display: block;
+    background: #fff;
+    width: 370px;
+    padding: 42px 30px 50px 30px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    box-shadow: 0px 15px 40px 0px rgba(0,0,0,0.08);
+}
+
+.rightSide .search-form .form-group input[type='search'] {
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #e6ebeb;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #848484;
+    padding: 10px 50px 10px 20px;
+    transition: all 500ms ease;
+}
+
+.tours-page-section .tour-block-one .inner-box {
+    margin-bottom: 30px;
+}
+
+.tour-block-one .inner-box .image-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.tour-block-one .inner-box .image-box img {
+    width: 100%;
+}
+
+.tour-block-one .inner-box .image-box a {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    font-size: 0px;
+    color: #fff;
+    z-index: 1;
+}
+
+.tour-block-one .inner-box .lower-content {
+    position: relative;
+    padding: 10px 35px 40px 40px;
+}
+.tour-block-one .inner-box .lower-content .rating span {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.tour-block-one .inner-box .lower-content .rating span i {
+    font-size: 13px;
+    color: #ffab01;
+}
+
+
+.tour-block-one .inner-box .lower-content .rating span i.inactive {
+    color: #ECEEEF;
+}
+
+.tour-block-one .inner-box .lower-content h3 {
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.tour-block-one .inner-box .lower-content h4 {
+    display: block;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.tour-block-one .inner-box .lower-content .info {
+    position: relative;
+    display: block;
+    background: #f5f7f8;
+    padding: 10px 10px 9px 14px;
+    border-radius: 5px;
+    margin-bottom: 22px;
+}
+
+.tour-block-one .inner-box .lower-content p {
+    margin-bottom: 21px;
+}
+
+.tour-block-one .inner-box .lower-content .btn-box a {
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 26px;
+    color: #061a3a;
+    font-weight: 500;
+    border: 1px solid #e4e8e9;
+    border-radius: 4px;
+    padding: 11px 28px;
+    text-align: center;
+}
+
+.category-widget {
+    padding-bottom: 43px;
+}
+
+.category-widget .widget-title {
+    margin-bottom: 17px;
+}
+
+.default-sidebar .widget-title h3 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.default-sidebar .custom-check-box {
+    position: relative;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.default-sidebar .custom-check-box .custom-control {
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+    padding-left: 28px;
+}
+
+.custom-check-box .custom-control.material-checkbox .material-control-input {
+    display: none;
+}
+
+input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.custom-check-box .custom-control.material-checkbox .material-control-indicator {
+    display: inline-block;
+    /* position: absolute; */
+    top: 6px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #d2d4d9;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.custom-check-box .custom-controls-stacked .description {
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    font-size: 15px;
+    color: #808080;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.custom-check-box .custom-control.material-checkbox .material-control-input:checked ~ .material-control-indicator {
+    background: #ff7c5b !important;
+    border-color: #ff7c5b !important;
+}
+
+.custom-check-box .custom-control.material-checkbox .material-control-indicator {
+    display: inline-block;
+    /* position: absolute; */
+    top: 6px;
+    left: 0px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #d2d4d9;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.custom-check-box .custom-control.material-checkbox .material-control-input:checked ~ .material-control-indicator:before {
+    opacity: 1;
+}
+
+.tour-sidebar .price-filter .widget-title {
+    margin-bottom: 15px;
+}
+
+.price-filter .form-group {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.price-filter .form-group p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #9ca3a9;
+    margin: 0;
+    line-height: 1em;
+    position: relative;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.price-filter .noUi-horizontal {
+    height: 3px;
+    background-color: #ff7c5b;
+}
+
+
+.pricerange {
+    -webkit-appearance: none; /* Hides the default slider */
+    width: 100%; /* Set the width of the slider */
+    height: 5px; /* Set the height of the slider */
+    background: #ddd; /* Default background color of the slider track */
+    border-radius: 5px; /* Set border radius */
+    outline: none; /* Remove outline */
+  }
+  
+  /* Change the color of the slider thumb (handle) */
+  .pricerange::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Hides the default thumb */
+    appearance: none;
+    width: 15px; /* Set width of the thumb */
+    height: 15px; /* Set height of the thumb */
+    background: #ff7c5b; /* Change the color of the thumb */
+    border-radius: 50%; /* Create a circular thumb */
+    cursor: pointer; /* Add cursor pointer on the thumb */
+  }
+  
+  /* Change the color of the slider track when thumb is dragged */
+  .pricerange::-moz-range-track {
+    background: #ddd;
+  }
+  
+  /* Change the color of the slider thumb (handle) in Firefox */
+  .pricerange::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: #ff7c5b;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Change the color of the slider track in IE */
+  .pricerange::-ms-track {
+    background: #ddd;
+  }

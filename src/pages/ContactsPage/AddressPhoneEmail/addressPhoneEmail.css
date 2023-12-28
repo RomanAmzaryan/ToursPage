@@ -1,0 +1,28 @@
+.blocks{
+    position: relative;
+    display: flex;
+    gap: 50px;
+    z-index: 2;
+}
+
+.blocks::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: -60px;
+    top: -30px;
+    background: url(https://travio.smartdemowp.com/wp-content/uploads/2021/02/shape-3.png);
+    z-index: -1;
+}
+
+.blocks::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: -60px;
+    bottom: -30px;
+    background: url(https://travio.smartdemowp.com/wp-content/uploads/2021/02/shape-3.png);
+    z-index: -1;
+}

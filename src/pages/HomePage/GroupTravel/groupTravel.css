@@ -1,0 +1,32 @@
+.GroupTravel{
+    width: 100%;
+    padding: 150px 0px;
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 0%, rgba(9,9,121,0.15449929971988796) 100%),url(https://travio.smartdemowp.com/wp-content/uploads/2021/02/deals-1.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.GroupTravelCart{
+    max-width: 370px;
+    background-color: #fff;
+    padding: 44px 40px 41px 50px;
+    border-radius: 10px;
+}
+
+.grouptTravelTitle {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.cartPrices{
+    color: #ff7c5b;
+
+}
+
+.cartPrices span{
+    color: #808080;
+    text-decoration: line-through;
+
+}

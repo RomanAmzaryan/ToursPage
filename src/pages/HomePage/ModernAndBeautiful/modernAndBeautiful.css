@@ -1,0 +1,23 @@
+.modernAndBeautiful{
+    width: 100%;
+    background-color: #f5f6f6;
+}
+
+.modernAndBeautiful h3{
+    text-align: center;
+    font-size: 17px;
+    color: #808080;
+}
+
+.modernAndBeautiful h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: #061a3a;
+}
+
+.carts{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}

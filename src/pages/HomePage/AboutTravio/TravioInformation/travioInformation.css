@@ -1,0 +1,43 @@
+.TravioInformation{
+    position: relative;
+    margin-top: 50px;
+    max-width: 570px;
+}
+
+.TravioInformation h3{
+    font-size: 17px;
+    color: #808080;
+}
+
+.TravioInformation h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #061a3a;
+}
+
+.TravioInformation p{
+    margin-top: 20px;
+    font-size: 17px;
+    color: #808080;
+}
+
+.Ratione{
+    position: absolute;
+    left: -40px;
+}
+
+.checkIcon{
+    font-size: 28px;
+    color: black;
+}
+
+.RationeList{
+    margin-top: 20px;
+    list-style: none;
+    font-size: 17px;
+    color: #808080;
+}
+
+.buttonBlock{
+    margin-top: 220px;
+}

@@ -1,0 +1,67 @@
+.Continents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.continent{
+    position: relative;
+    max-width: 100%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.CountryAndTime{
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+}
+
+.continentImg{
+    width: 370px;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.continentImg img{
+    border-radius: 12px;
+    height: 100%;
+    width: 100%;
+}
+
+.continentContent{
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.continentH1{
+    margin-left: 50px;
+}
+
+.continent .continentH3{
+    padding: 10px 20px;
+    background-color: #f5f6f6;
+    font-size: 17px;
+    color: #808080;
+}
+
+.continentsDescription{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #f5f6f6;
+    font-size: 17px;
+    color: #808080;
+    margin-left: 50px;
+
+}
+
+.button{
+    position: absolute;
+    right: 20px;
+}

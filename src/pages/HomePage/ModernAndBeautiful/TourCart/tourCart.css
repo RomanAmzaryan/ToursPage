@@ -1,0 +1,58 @@
+.cart {
+  max-width: 370px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+.padding {
+  padding: 0 30px 40px;
+}
+
+.cartTitle {
+  margin-top: 50px;
+}
+
+.cartPrice {
+  color: #ff7c5b;
+}
+
+.cartPrice span {
+  color: #808080;
+}
+
+.cartImg {
+  cursor: pointer;
+  width: 390px;
+  height: 270px;
+}
+
+.tab .cartImg {
+  cursor: pointer;
+  max-width: 259px;
+  height: 194px;
+}
+
+.daysCount {
+  padding: 10px 20px;
+  background-color: #f5f6f6;
+  margin-top: 20px;
+  font-size: 17px;
+  color: #808080;
+  text-align: center;
+  align-items: center;
+}
+
+.time {
+  margin-right: 20px;
+}
+.map {
+  margin: 0 10px;
+}
+
+.cartDescription {
+  margin-top: 20px;
+  font-size: 17px;
+  color: #808080;
+}

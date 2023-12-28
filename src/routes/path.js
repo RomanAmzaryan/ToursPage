@@ -1,0 +1,17 @@
+export const FAMILYTOURS_PAGE_PATH = "toursPage/family";
+export const ADULTTOURS_PAGE_PATH = "toursPage/adult";
+export const ABOUTUS_PAGE_PATH = "aboutUsPage";
+export const SIGNIN_PAGE_PATH = "signInPage";
+export const BLOG_PAGE_PATH = "blogPage";
+export const CONTACTS_PAGE_PATH = "contactsPage";
+export const REGISTRATION_PAGE_PATH = "registrationPage";
+export const BOOKTOUR_PAGE_PATH = "bookTourPage";
+export const AFRICA_PAGE_PATH = "afrika";
+export const ASIA_PAGE_PATH = "asia";
+export const EUROPE_PAGE_PATH = "europe";
+export const OCEANIA_PAGE_PATH = "oceania";
+export const NORTHAMERICA_PAGE_PATH = "northAmerica";
+export const SOUTHAMERICA_PAGE_PATH = "southAmerica";
+export const ALLCONTINENTS_PAGE_PATH = "destinationPage/allContinents";
+export const CHOOSEN_TOUR_ID = "choosenTour";
+export const USER_INFO = "userInfo";

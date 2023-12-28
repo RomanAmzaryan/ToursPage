@@ -1,0 +1,45 @@
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 50px;
+}
+
+
+.footer-logo img {
+    width: 120px;
+    height: 26px;
+}
+
+.footer-text {
+    width: 300px;
+    height: 100%;
+  
+    
+}
+
+.footer-text p {
+    text-wrap: wrap;
+    text-align: start;
+    font-size: 16px;
+    color: rgb(142, 137, 137);
+   
+}
+
+
+.footer-icons {
+    display: flex;
+    gap: 15px;
+       
+}
+
+.footer-icons img {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: white;
+    
+   
+}
+
+

@@ -1,0 +1,78 @@
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+
+}
+
+
+.contacts-header {
+    margin-bottom: 50px;
+}
+
+.contacts-header h1 {
+    color: white;
+    font-size: 28px;
+    margin-top: -10px;
+}
+
+.contacts-info {
+    display: flex;
+    flex-direction: column;
+  
+    row-gap: 20px;
+}
+.contacts-address {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    font-size: 16px;
+    color: rgb(142, 137, 137);
+    align-items: start;
+    gap: 20px;
+    
+}
+
+.contacts-address img {
+    margin-top: 10px;
+    
+}
+
+.contacts-phone {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    gap: 20px;
+    font-size: 16px;
+    color: rgb(142, 137, 137);
+}
+.contacts-email {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    gap: 20px;
+    font-size: 16px;
+     color: rgb(142, 137, 137);
+}
+
+
+
+.contacts-address img {
+    width: 30px;
+    height: 30px;
+    
+
+}
+.contacts-phone img {
+    width: 30px;
+    height: 30px;
+
+
+}
+.contacts-email img {
+    width: 30px;
+    height: 30px;
+
+
+}

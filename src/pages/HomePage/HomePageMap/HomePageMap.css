@@ -1,0 +1,103 @@
+.homePageMap {
+    background-color: white;
+    background-image: url('https://travio.smartdemowp.com/wp-content/uploads/2021/02/map-1.png');
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 750px;
+    position: relative;
+    width: 100%;
+}
+
+.map-continent-1 {
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.map-continent-1 p{
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 24px;
+}
+
+.map-continent-2 {
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 450px;
+}
+
+.map-continent-2 p {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 24px;
+}
+
+.map-continent-3 {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 300px;
+}
+
+.map-continent-3 p {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 24px;
+}
+
+.map-continent-4 {
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 110px;
+}
+
+.map-continent-4 p {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 24px;
+}
+
+
+
+.map-continent-5 {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 200px;
+}
+
+.map-continent-5 p {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 24px;
+}
+
+.map-continent-6 {
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 450px;
+}
+
+.map-continent-6 p {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 24px;
+}
+

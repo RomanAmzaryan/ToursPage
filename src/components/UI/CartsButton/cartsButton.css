@@ -1,0 +1,6 @@
+.cartButton{
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #e4e8e9;
+    color: #061a3a;
+}

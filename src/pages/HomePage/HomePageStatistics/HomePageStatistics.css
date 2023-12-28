@@ -1,0 +1,80 @@
+
+.homePageStatistics {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.statisticsHolder {
+    margin: auto 200px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+   padding-bottom: 30px;
+   flex-wrap: wrap;
+   border-radius: 10px;
+}
+
+.statistic1 {
+    
+    background-image: url('./StatisticsImages/shape-5.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 230px;
+    height: 144px;
+}
+
+.statistic2 {
+    width: 230px;
+    height: 144px;
+    background-image: url('./StatisticsImages/shape-6.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.statistic3 {
+    width: 230px;
+    height: 144px;
+    background-image: url('./StatisticsImages/shape-7.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.statistic4 {
+    width: 230px;
+    height: 144px;
+    background-image: url('./StatisticsImages/shape-8.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+}
+
+.statInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.statInfo h3 {
+    font-size: 36px;
+    color: #061A3A;
+    font-weight: 700;
+}
+
+.statInfo p {
+    font-size: 18px;
+    color: #848485;
+    font-weight: 00;
+}

@@ -1,0 +1,35 @@
+.getInTouch{
+    max-width: 500px;
+}
+
+.getInTouch h3{
+    font-size: 17px;
+    color: #808080;
+}
+
+.getInTouch h1{
+    color: #061a3a;
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.getInTouch p{
+    font-family: 'Work Sans', sans-serif;
+    color: #808080;
+    font-weight: 400;
+    margin: 0px;
+    transition: all 500ms ease;
+}
+
+.icons{
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.icons i{
+    font-size: 50px;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.footer-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+
+.footer-gallery-header {
+    margin-bottom: 50px;
+}
+
+.footer-gallery-header h1 {
+    color: white;
+    font-size: 28px;
+    text-align: start;
+}
+
+.footer-gallery-first {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-gallery-second {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+.footer-gallery-first img {
+    border-radius: 6px;
+    
+}
+.footer-gallery-second img {
+    border-radius: 6px;
+
+}
+

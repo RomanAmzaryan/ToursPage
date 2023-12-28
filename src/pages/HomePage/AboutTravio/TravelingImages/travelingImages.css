@@ -1,0 +1,44 @@
+.travelingImages{
+    max-width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topImages{
+    position: relative;
+}
+
+.birds{
+    position: absolute;
+}
+.smartdemowpBorder{
+    position: relative;
+    left: 80px;
+    top: 50px;
+    border: 10px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.bottomImages{
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.bottomImg{
+    border: 10px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.Find{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.videoIcon{
+    font-size: 80px;
+    cursor: pointer;
+}

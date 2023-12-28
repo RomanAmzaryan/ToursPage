@@ -1,0 +1,51 @@
+.Topimages{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image{
+    position: relative;
+    max-width: 370px;
+    z-index: 2;
+}
+
+.image .birds{
+    position: absolute;
+    bottom: -280px;
+    right: 0;
+    z-index: -1;
+}
+
+.Choose{
+    font-size: 17px;
+    line-height: 28px;
+    color: #808080;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.popular{
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    color: #061a3a;
+}
+
+.smartdemowpBorder{
+    position: relative;
+    border: 10px solid white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.imageText{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: #fff;
+
+}

@@ -1,0 +1,171 @@
+.main-header.style-three {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    background-color: white;
+}
+
+.logo-div {
+    width: 126px;
+    margin-right: 1rem;
+    /* width: 100%; */
+    height: auto;
+}
+
+.logo-div img {
+    /* max-width: 126px; */
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+    /* height: auto; */
+}
+
+.menu-part li {
+    /* margin-right: 1.5rem; */
+    padding: 35px 0px;
+    margin: 0px 20px;
+
+}
+
+.menu-part .nav-item .nav-link {
+    text-align: center;
+    font-size: 17px;
+    line-height: 30px;
+    /* font-family: 'Work Sans', sans-serif; */
+    font-weight: 500;
+    transition: all .1s ease;
+
+}
+
+.menu-part .nav-item:hover {
+    color: #ff7c5b !important;
+    transition: all .1s ease;
+}
+
+.icon-div {
+    margin-right: 15px;
+    box-shadow: none;
+    background: #f0f2f2;
+    top: 2px;
+    position: relative;
+    font-size: 18px;
+    color: #061a3a;
+    cursor: pointer;
+    display: inline-block;
+    /* background: #ffffff; */
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    border-radius: 50%;
+    /* box-shadow: 0px 15px 25px 0px rgba(255,124,91,0.4); */
+    transition: all 500ms ease;
+}
+
+.icon-div:hover {
+    background: #ff7c5b !important;
+}
+
+/* .active{
+    position: relative;
+    transition: all .3s;
+}
+
+.active2{
+    position: relative;
+    transition: all .3s;
+} */
+
+/* .dropDown{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 250px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease-in;
+    border-top: 3px solid #ff7c5b;
+    border-radius: 12px;
+}
+
+.dropDown li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.dropDown .nav-link:hover {
+    color: #ff7c5b !important;
+    transition: all 300ms ease;
+}
+
+
+
+.dropDown2{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 250px;
+    background: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid #ff7c5b;
+    border-radius: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+*/
+.dropDown,
+.dropDown2 {
+    /* ... your existing styles ... */
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    width: 250px;
+    max-height: 0;
+    overflow: hidden;
+    background: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 3px solid #ff7c5b;
+    border-radius: 12px;
+    transition: max-height 0.3s ease, opacity 0.3s ease, visibility 0.3s ease; /* Transition max-height for dropdown, opacity, and visibility */
+    opacity: 0;
+    visibility: hidden;
+}
+
+.nav-item.active .dropDown,
+.nav-item.active2 .dropDown2 {
+    /* ... your existing styles ... */
+    max-height: 200px; /* Adjust the max-height to show the dropdown content */
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropDown,
+.dropDown2,
+.dropDown li,
+.dropDown2 li {
+    list-style: none;
+    padding: 10px 0;
+    transition: all 0.2s cubic-bezier(0.4,0.28,0.31,1.28) 0s; /* Ensure transitions are inherited */
+}
+
+.dropDown .nav-link:hover,
+.dropDown2 .nav-link:hover {
+    color: #ff7c5b !important;
+}
+
+.d-flex .btn-div{
+    padding: 20px 50px;
+}

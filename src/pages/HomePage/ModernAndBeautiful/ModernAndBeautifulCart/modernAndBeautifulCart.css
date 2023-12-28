@@ -1,0 +1,9 @@
+.ModernAndBeautifulCart{
+    display: flex;
+    gap: 50px;
+}
+
+.rightSide .ModernAndBeautifulCart{
+    display: flex;
+    flex-direction: column;
+}
