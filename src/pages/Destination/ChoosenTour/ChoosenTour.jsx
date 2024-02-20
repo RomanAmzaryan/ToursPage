@@ -13,7 +13,7 @@ export default function ChoosenTour() {
 
   useEffect(() => {
     (async () => {
-      const result = await get(`http://localhost:5000/tripsData/${id}`);
+      const result = await get(`http://localhost:5001/tripsData/${id}`);
       setTripData(result);
     })();
   }, [id]);

@@ -1,5 +1,5 @@
 export const UseRequest = () => {
-  const post = async (url, data) => {
+  const post = async (url, data) => { 
     let result = await fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
